@@ -13,7 +13,7 @@ chat_id = config['DEFAULT']['ChatId']
 
 
 def send_message():
-    print("envii")
+    print("Send Message")
 
     message = 'Água voltou ou algo mudou'
     apiURL = f'https://api.telegram.org/bot{api_token}/sendMessage'
@@ -36,9 +36,9 @@ while True:
     status = box_title.find("div").find("div")["style"]
 
     if "#f51616" not in str(status):
-        print("entrou")
+        print("Changes Found!")
         send_message()
     else:
-        print("não mudou")
+        print("Nothing changed, but I'm still alive!")
 
     time.sleep(600)
