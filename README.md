@@ -13,3 +13,6 @@ CompanyURL = [COMPANY_URL]
 APIToken = [YOUR_BOT_API_TOKEN_FROM_TELEGRAM]
 ChatId = [YOUR_CHAT_ID_FROM_TELEGRAM]
 ```
+
+Known issue:
+If you start the script with the status different from red, it will send you messages each 10 minutes. Since it's a very specific project done in 30 minutes or less, I don't care too much for me.
