@@ -57,4 +57,4 @@ while True:
 
     previous_status = current_status
 
-    time.sleep(600)
+    time.sleep(1800)
