@@ -47,9 +47,9 @@ while True:
         print("Changes found! Current status:" + current_status)
 
         if current_status == "broken":
-            current_message = "Interrupção no serviço de água"
+            current_message = "Interrupção no serviço"
         else:
-            current_message = "Serviço de água voltou a funcionar"
+            current_message = "Serviço voltou a funcionar"
 
         send_message(current_message)
     else:
